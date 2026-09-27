@@ -197,7 +197,7 @@ jobs:
           butlerApiKey: ${{secrets.BUTLER_API_KEY}}
           gameData: nzportable-3ds.zip
           itchUsername: nzp-team
-          itchGameId: nazi-zombies-portable
+          itchGameId: zombie-survival-portable
           buildChannel: 3ds
           buildNumberFile: build-version.txt
       - name: Upload to itch.io - Linux 32-Bit
@@ -206,7 +206,7 @@ jobs:
           butlerApiKey: ${{secrets.BUTLER_API_KEY}}
           gameData: nzportable-linux32.zip
           itchUsername: nzp-team
-          itchGameId: nazi-zombies-portable
+          itchGameId: zombie-survival-portable
           buildChannel: linux-x86
           buildNumberFile: build-version.txt
       - name: Upload to itch.io - Linux 64-Bit
@@ -215,7 +215,7 @@ jobs:
           butlerApiKey: ${{secrets.BUTLER_API_KEY}}
           gameData: nzportable-linux64.zip
           itchUsername: nzp-team
-          itchGameId: nazi-zombies-portable
+          itchGameId: zombie-survival-portable
           buildChannel: linux-x86_64
           buildNumberFile: build-version.txt
       - name: Upload to itch.io - Linux ARM64
@@ -224,7 +224,7 @@ jobs:
           butlerApiKey: ${{secrets.BUTLER_API_KEY}}
           gameData: nzportable-linuxarm64.zip
           itchUsername: nzp-team
-          itchGameId: nazi-zombies-portable
+          itchGameId: zombie-survival-portable
           buildChannel: linux-arm64
           buildNumberFile: build-version.txt
       - name: Upload to itch.io - Linux ARMhf
@@ -233,7 +233,7 @@ jobs:
           butlerApiKey: ${{secrets.BUTLER_API_KEY}}
           gameData: nzportable-linuxarmhf.zip
           itchUsername: nzp-team
-          itchGameId: nazi-zombies-portable
+          itchGameId: zombie-survival-portable
           buildChannel: linux-armhf
           buildNumberFile: build-version.txt
       - name: Upload to itch.io - PlayStation Portable
@@ -242,7 +242,7 @@ jobs:
           butlerApiKey: ${{secrets.BUTLER_API_KEY}}
           gameData: nzportable-psp.zip
           itchUsername: nzp-team
-          itchGameId: nazi-zombies-portable
+          itchGameId: zombie-survival-portable
           buildChannel: psp
           buildNumberFile: build-version.txt
       - name: Upload to itch.io - Nintendo Switch
@@ -251,7 +251,7 @@ jobs:
           butlerApiKey: ${{secrets.BUTLER_API_KEY}}
           gameData: nzportable-switch.zip
           itchUsername: nzp-team
-          itchGameId: nazi-zombies-portable
+          itchGameId: zombie-survival-portable
           buildChannel: switch
           buildNumberFile: build-version.txt
       - name: Upload to itch.io - PlayStation VITA
@@ -260,7 +260,7 @@ jobs:
           butlerApiKey: ${{secrets.BUTLER_API_KEY}}
           gameData: nzportable-vita.zip
           itchUsername: nzp-team
-          itchGameId: nazi-zombies-portable
+          itchGameId: zombie-survival-portable
           buildChannel: vita
           buildNumberFile: build-version.txt
       - name: Upload to itch.io - Windows 32-bit
@@ -269,7 +269,7 @@ jobs:
           butlerApiKey: ${{secrets.BUTLER_API_KEY}}
           gameData: nzportable-win32.zip
           itchUsername: nzp-team
-          itchGameId: nazi-zombies-portable
+          itchGameId: zombie-survival-portable
           buildChannel: windows-x86
           buildNumberFile: build-version.txt
       - name: Upload to itch.io - Windows 64-bit
@@ -278,7 +278,7 @@ jobs:
           butlerApiKey: ${{secrets.BUTLER_API_KEY}}
           gameData: nzportable-win64.zip
           itchUsername: nzp-team
-          itchGameId: nazi-zombies-portable
+          itchGameId: zombie-survival-portable
           buildChannel: windows-x86_64
           buildNumberFile: build-version.txt
       - name: Upload to itch.io - TI-NSPIRE
@@ -287,6 +287,6 @@ jobs:
           butlerApiKey: ${{secrets.BUTLER_API_KEY}}
           gameData: nzportable-nspire.zip
           itchUsername: nzp-team
-          itchGameId: nazi-zombies-portable
+          itchGameId: zombie-survival-portable
           buildChannel: nspire
           buildNumberFile: build-version.txt

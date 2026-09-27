@@ -1,6 +1,6 @@
 ---
 name: Issue
-description: "File a report for a bug/issue inside of Nazi Zombies: Portable"
+description: "File a report for a bug/issue inside of Zombie Survival: Portable"
 type: 'bug'
 assignees:
   - tanuki-billie
@@ -44,7 +44,7 @@ body:
   - type: input
     attributes:
       label: Game Version
-      description: "Enter the Nazi Zombies: Portable game version as it appears in the main menu."
+      description: "Enter the Zombie Survival: Portable game version as it appears in the main menu."
     validations:
       required: true
   - type: textarea

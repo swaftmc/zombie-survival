@@ -1,9 +1,9 @@
-# Nazi Zombies: Portable
+# Zombie Survival: Portable
 
 # About
-This is the main/hub repository for NZ:P, a Call of Duty: Zombies "de-make" powered by various enhanced forks of the Quake engine, in development since 2009. This hub repository serves as a place to host nightly builds as well as a means of bug reporting on a game-wide (non-component) scale. See [the breakdown](#github-organization-breakdown) for source code and other components.
+This is the main/hub repository for ZSP, a Call of Duty: Zombies "de-make" powered by various enhanced forks of the Quake engine, in development since 2009. This hub repository serves as a place to host nightly builds as well as a means of bug reporting on a game-wide (non-component) scale. See [the breakdown](#github-organization-breakdown) for source code and other components.
 
-The game itself is feature-equivalent with Call of Duty: World at War on a generic level. Gameplay components are implemented with minor parity differences. Most World at War maps and their unique features are not yet represented. Various small additions and changes from Call of Duty: Black Ops are present as a means of gameplay smoothing, but not on a wide scale. NZ:P is, first and foremost, a Call of Duty: World at War remake.
+The game itself is feature-equivalent with Call of Duty: World at War on a generic level. Gameplay components are implemented with minor parity differences. Most World at War maps and their unique features are not yet represented. Various small additions and changes from Call of Duty: Black Ops are present as a means of gameplay smoothing, but not on a wide scale. ZSP is, first and foremost, a Call of Duty: World at War remake.
 
 # Supported Platforms
 * Linux (x86, x86_64, armhf, arm64)
@@ -17,7 +17,7 @@ The game itself is feature-equivalent with Call of Duty: World at War on a gener
 
 # GitHub Organization Breakdown
 * [assets](https://github.com/nzp-team/assets): Game GFX, Sound, etc. data.
-* [vril-engine](https://github.com/nzp-team/vril-engine): The NZ:P engine.
+* [vril-engine](https://github.com/nzp-team/vril-engine): The ZSP engine.
 * [quakec](https://github.com/nzp-team/quakec): The game-side code for things like weapons and Perk machines.
 * [tools](https://github.com/nzp-team/tools): Misc. development tools.
 * [toolbox](https://github.com/nzp-team/toolbox): AiO Development suite for map makers and contributors.

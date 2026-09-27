@@ -35,8 +35,8 @@ wget -q "$ARCHIVE_URL" -O nzportable.zip
 ARCHIVE_SHA=$(sha256sum nzportable.zip | cut -d' ' -f1)
 
 # Replace placeholders in manifest
-sed -i "s/ARCHIVE_SHA256_REPLACE/${ARCHIVE_SHA}/" gay.nzp.nzportable.json
-sed -i "s/\"nightly\"/\"${BUILD_VERSION}\"/" gay.nzp.nzportable.json
+sed -i "s/ARCHIVE_SHA256_REPLACE/${ARCHIVE_SHA}/" io.github.nzpteam.zombiesurvival.json
+sed -i "s/\"nightly\"/\"${BUILD_VERSION}\"/" io.github.nzpteam.zombiesurvival.json
 
 # Output the updated manifest
-cat gay.nzp.nzportable.json
+cat io.github.nzpteam.zombiesurvival.json
